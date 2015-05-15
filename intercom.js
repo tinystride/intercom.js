@@ -66,7 +66,7 @@ var Intercom = (function() {
 		}
 	};
 	
-	if (isLocalStorageSupported) {
+	if (isLocalStorageSupported()) {
 		localStorage = window.localStorage
 	}
 	
